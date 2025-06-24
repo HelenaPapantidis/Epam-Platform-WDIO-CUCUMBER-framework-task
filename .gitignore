@@ -1,0 +1,14 @@
+# Node modules
+node_modules/
+
+# Allure report folders
+allure-report/
+allure-results/
+
+# VS Code settings (optional)
+.vscode/
+
+# Output directories (optional if you store screenshots/videos)
+output/
+screenshots/
+video/
