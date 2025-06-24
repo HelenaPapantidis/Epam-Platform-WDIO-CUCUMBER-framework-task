@@ -8,7 +8,7 @@ This project is a test automation framework using **WebdriverIO v9**, **Cucumber
 
 - **WebdriverIO** – Automation test framework  
 - **Cucumber.js** – BDD syntax for feature files  
-- **Allure Report** – Beautiful test reports  
+- **Allure Report** – Test reports  
 - **Node.js & NPM** – JavaScript runtime and package manager  
 
 ---
