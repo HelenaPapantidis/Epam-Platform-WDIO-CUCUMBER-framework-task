@@ -69,9 +69,9 @@ npm run wdio
 
 ## 📂 Useful NPM Scripts (`package.json`)
 
-"scripts": {
+"scripts": {  
   "test": "wdio run ./wdio.conf.js",  
   "allure:report": "allure generate allure-results --clean -o allure-report && allure open allure-report",  
   "clean:allure": "rd /s /q allure-results & rd /s /q allure-report"  
 }  
-```
+
