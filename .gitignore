@@ -12,3 +12,6 @@ allure-results/
 output/
 screenshots/
 video/
+
+# Environment files
+.env

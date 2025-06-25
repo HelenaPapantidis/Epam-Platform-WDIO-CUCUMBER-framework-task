@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // modern JS target
+    "module": "commonjs", // WebdriverIO uses CommonJS modules
+    "checkJs": true, // enables type checking in JS files
+    "baseUrl": ".", // root directory of the project
+    "paths": {
+      "*": [
+        "node_modules/*",
+        "src/*"
+      ] // resolve modules from node_modules and your src folder
+    },
+    "allowJs": true, // allow JS files to be compiled (for type checking)
+    "moduleResolution": "node", // resolve modules like Node.js
+    "resolveJsonModule": true, // allow importing json files
+    "types": [
+      "node",
+      "@wdio/cucumber-framework",
+      "expect-webdriverio",
+      "@wdio/globals",
+      "@wdio/types"
+    ] // add typings for node, webdriverio, and cucumber
+  },
+  "include": [
+    "src/**/*.js",
+    "wdio.conf.js",
+    "node_modules/expect-webdriverio"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
+/**This configuration file is used to provide type checking and module resolution for a WebdriverIO project using Cucumber and JavaScript.
+ It specifies the compiler options, including the target ECMAScript version, module system, and paths for module resolution.
+ The `include` section specifies which files to include for type checking, while the `exclude` section excludes the `node_modules` directory.
+ The configuration is designed to work with WebdriverIO's async/await syntax and Cucumber step definitions.
+ It also allows for importing JSON files and provides type definitions for Node.js, WebdriverIO, and Cucumber.
+ **/
